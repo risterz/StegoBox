@@ -1,0 +1,113 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Installer logs
+pip-log.txt
+pip-delete-this-directory.txt
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+desktop.ini
+
+# StegoBox specific
+*.png
+*.jpg
+*.jpeg
+*.bmp
+*.gif
+*.tiff
+*.zip
+!assets/*.png
+!assets/*.ico
+!assets/screenshots/*.png
+!docs/screenshots/*.png
+
+# Temporary files
+temp/
+tmp/
+*.tmp
+*.temp
+*.log
+
+# Build artifacts
+build/dist/
+build/build/
+*.exe
+*.app
+*.dmg
+*.deb
+*.rpm
+
+# Test outputs
+test_output/
+stego_*
+extracted_*
+*_stego.*
+*_extracted.*
+
+# Secrets and credentials
+.env.local
+.env.production
+secrets.txt
+passwords.txt
+*.key
+*.pem
