@@ -1,0 +1,10 @@
+# GUI Screenshots Directory
+
+This directory will contain GUI application screenshots:
+- main_window.png
+- hide_tab.png  
+- extract_tab.png
+- dark_theme.png
+- light_theme.png
+
+Add your GUI screenshots here following the naming convention in the parent README.md
